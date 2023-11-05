@@ -467,7 +467,7 @@ img {
 
 /* SAMSUNG-ARTICLE */
 .samsung-article{
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 .samsung-article-container{
   background-image: url('../img/article-samsung.webp');
@@ -492,7 +492,7 @@ img {
 
 /* SAMSUNG-SEARCH */
 .samsung-search{
-  margin-bottom: 100px;
+  margin-bottom: 140px;
 }
 
 .samsung-search-container{
@@ -528,16 +528,62 @@ img {
   align-items: center;
   position: relative;
   height: 60px;
+  margin-bottom: 20px;
+}
+
+.samsung-search-btn{
+  display:inline-block;
+  border: 1px solid #22222273;
+  padding: 10px 12px;
+  border-radius: 30px;
+  font-size: 14px;
+  margin-bottom:10px;
+  background-color: inherit;
+}
+
+.samsung-search-btn:not(:last-child){
+  margin-right: 10px;
+}
+
+
+/* SAMSUNG-DECK */
+.samsung-deck-text{
+  font-weight: 500;
+  font-size: 25px;
+  position: relative;
+  margin-left: 80px;
+}
+
+.samsung-deck-text::before{
+  content: ">";
+    display: block;
+    width: 26px;
+    height: 26px;
+    border: 2px solid #000;
+    color: #000;
+    text-align: center;
+    font-weight: 700;
+    border-radius: 100%;
+    position: absolute;
+    top: 43%;
+    margin-top: -10px;
+    left: -40px;
+    transition: all .25s;
+    transform: rotate(90deg);
+    font-size: 19px;
+}
+
+.samsung-deck-title{
+  margin-left: 40px;
+  font-size: 14px;
+  line-height: 35px;
 }
 
 
 
 
 
-
 /* MEDIA */
-
-
 @media only screen and (max-width: 1459px) {
    .sitenav-link{
     font-size: 13px;
@@ -710,6 +756,10 @@ img {
  .samsung-article-container{
   margin-top: -40px;
  }
+
+ .samsung-search-heading{
+  font-size: 30px;
+ }
 }
 
 @media only screen and (max-width: 500px){
@@ -738,6 +788,24 @@ img {
    .samsung-article-container{
     margin-top: -80px;
    }
+
+   .samsung-search-input{
+    display: inline-block;
+    padding-left: 50px;
+    min-width: 380px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: #22222206;
+    border: 1px solid #222;
+  }
+
+  .fa-input{
+    position: absolute;
+    transform: translateX(-160px);
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
 }
 
 @media only screen and (max-width: 400px){
@@ -766,6 +834,35 @@ img {
    .samsung-article-container{
     margin-top: -130px;
    }
+   .samsung-search-heading{
+    font-size: 22px;
+   }
+
+    .samsung-search-input{
+    display: inline-block;
+    padding-left: 50px;
+    min-width: 300px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: #22222206;
+    border: 1px solid #222;
+  }
+
+  .fa-input{
+    position: absolute;
+    transform: translateX(-120px);
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  .samsung-search-btn{
+    padding: 5px 10px;
+    font-size: 11px;
+  }
+
+  .samsung-article{
+    margin-bottom: 20px;
+  }
 }
 
 
