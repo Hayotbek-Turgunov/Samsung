@@ -4,14 +4,371 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+  <title>Samsung</title>
+  
+  <!-- FONT-AWESOME -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+  integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+  <!-- FONT-AWESOME -->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  
   <!-- STYLES -->
-  <title>Document</title>
   <link rel="stylesheet" href="./css/necolas.github.io_normalize.css_8.0.1_normalize.css">
   <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
+  
+  <!-- MODAL -->
+  
+  <div class="modal">
+    <div class="modal-container">
+      <button onclick="restiy()" class="modal-btn"><i class="fa-solid fa-x fa-rest"></i></button>
+      <h1 class="modal-heading">What are you looking for?</h1>
+      <div class="modal-input-wrapper">
+        <button class="modal-search"><i class="fa-solid fa-magnifying-glass"></i></button>
+        <input class="modal-input" type="text" placeholder="Galaxy z Flip 5">
+      </div>
+      <div class="card-wrapper">
+        <div class="card">
+          <img src="" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+  
+  <!-- SITE-HEADER-START -->
+  <header class="site-header">
+    <div class="container">
+      <div class="site-header-container">
+        <!-- SITE-HEADER-LOGO -->
+        <a class="site-header-logo" href="">
+          <img class="site-header-logo-img"
+          src="https://e7.pngegg.com/pngimages/483/415/png-clipart-samsung-simple-logo-icons-logos-emojis-iconic-brands.png"
+          alt="site-header-logo" width="120" height="32">
+        </a>
+        
+        <!-- SITE-HEADER-AUTH -->
+        <nav class="sitenav">
+          <ul class="sitenav-list-left">
+            <li class="sitenav-item"><a class="sitenav-link" href="#">Shop</a></li>
+            <li class="sitenav-item"><a class="sitenav-link" href="#">Mobile</a></li>
+            <li class="sitenav-item"><a class="sitenav-link" href="#">TV & Audio</a></li>
+            <li class="sitenav-item"><a class="sitenav-link" href="#">Appliances</a></li>
+            <li class="sitenav-item"><a class="sitenav-link" href="#">Computing</a></li>
+            <li class="sitenav-item"><a class="sitenav-link" href="#">Displays</a></li>
+            <li class="sitenav-item"><a class="sitenav-link" href="#">Accessories</a></li>
+            <li class="sitenav-item"><a class="sitenav-link" href="#">SmartThings</a></li>
+          </ul>
+          
+          <ul class="sitenav-list-right">
+            <li class="sitenav-item"><a class="sitenav-link" href="">Explore</a></li>
+            <li class="sitenav-item"><a class="sitenav-link" href="">Support</a></li>
+            <li class="sitenav-item"><a class="sitenav-link" href="">For Businnes</a></li>
+          </ul>
+        </nav>
+        
+        <!-- SITE-HEADERE-AUTH -->
+        <ul class="site-header-auth-wrapper">
+          <li class="site-header-auth-item"><button onclick="searchiy()" id="navbar-btn" class="site-header-auth-search"><i class="fa-solid fa-magnifying-glass"></i></button></li>
+          <li><button id="navbar-btn" class="site-header-auth-basket"><i class='bx bx-basket'></i></button></li>
+          <li class="site-header-auth-item">  
+            <button id="navbar-btn" class="site-header-auth-user"><i class="fa-regular fa-user"></i></button>
+            <ul class="drobdown-menu-list">
+              <li class="drobdown-menu-item">Sign in/ Create account</li>
+              <li class="drobdown-menu-item">Sign in/ Create account</li>
+              <li class="drobdown-menu-item">Sign in/ Create account</li>
+              <li class="drobdown-menu-item">Sign in/ Create account</li>
+            </ul>
+          </li>
+        </ul>
+        
+        <!-- FA-BARS -->
+        <button class="nav-toggle"><i class="fa-solid fa-bars"></i></button>
+      </div>
+    </div>
+  </header>
+  <!-- SITE-HEADER-END -->
+  
+  <main class="main-content">
+    <!-- HERO-START -->
+    <div class="container">
+      <section class="hero"> 
+        <div class="hero-container">
+          <div class="hero-deck">
+            <h1 class="hero-heading">Get up to $1100  <br> trade-in creedit </h1>
+            <p class="hero-text">Unfold your next-level productivity width Galaxy Z Fold5</p>
+          </div>
+          <div class="hero-auth-wrapper">
+            <a href="#" class="hero-auth-shop">Shop more deals</a>
+            <button class="hero-auth-buy">Buy now</button>
+          </div>
+        </div>
+      </section>
+      <!-- HERO-END -->
+    </div>
+    
+    
+    
+    <!-- SAMSUNG-SHOP -->
+    <section class="samsung-shop">
+      <div class="main-container">
+        <div class="samsung-shop-top">
+          <h2 class="samsung-shop-top-heading">Shop all latest offers and innovations</h2>
+          <div class="samsung-shop-top-auth-wrapper">
+            <div class="samsung-shop-top-auth-wrapper-main"> <a class="samsung-shop-top-auth-btn active-btn" href="">For You</a></div>
+            <div class="samsung-shop-top-auth-wrapper-main"> <a class="samsung-shop-top-auth-btn " href="">Mobile & Tablets
+            </a></div>
+            <div class="samsung-shop-top-auth-wrapper-main"> <a class="samsung-shop-top-auth-btn " href=""> TV & Computing
+            </a></div>
+            <div class="samsung-shop-top-auth-wrapper-main"> <a class="samsung-shop-top-auth-btn " href=""> Home Appliances
+            </a></div>
+            <div class="samsung-shop-top-auth-wrapper-main"> <a class="samsung-shop-top-auth-btn" href=""> Samsung Live
+            </a></div>
+            <div class="samsung-shop-top-auth-wrapper-main"> <a class="samsung-shop-top-auth-btn " href=""> For Business
+            </a></div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- SAMSUNG-BOTTOM -->
+      
+      <div class="main-container">
+        <div class="samsung-bottom-card-wrapper">
+          <div class="samsung-bottom-card">
+            <img class="samsung-bottom-card-img" src="./img/fee2_1_11zon-removebg-preview.png" alt="" width="107" height="81">
+            <h3 class="samsung-bottom-card-deck">Galaxy Buds 2 pro</h3>
+            <p class="samsung-bottom-card-tex">From $229.99</p>
+            <button class="samsung-bottom-card-btn">Buy now</button>
+          </div>
+          
+          <div class="samsung-bottom-card">
+            <img class="samsung-bottom-card-img" src="./img/fee2_1_11zon-removebg-preview.png" width="107" height="81">
+            <h3 class="samsung-bottom-card-deck">Galaxy Buds  FE</h3>
+            <p class="samsung-bottom-card-tex">From $229.99</p>
+            <button class="samsung-bottom-card-btn">Buy now</button>
+          </div>
+          
+          <div class="samsung-bottom-card">
+            <img class="samsung-bottom-card-img" src="https://image-us.samsung.com/SamsungUS/home/television-home-theater/tvs/3162023/The_Frame22_23.jpg?$product-card-small-jpg$" alt="" width="107" height="81">
+            <h3 class="samsung-bottom-card-deck">65" The Frame (2023)</h3>
+            <p class="samsung-bottom-card-tex">From $229.99</p>
+            <button class="samsung-bottom-card-btn">Buy now</button>
+          </div>
+          
+          <div class="samsung-bottom-card">
+            <img class="samsung-bottom-card-img" src="./img/s23-removebg-preview.png" alt="" width="80" height="81">
+            <h3 class="samsung-bottom-card-deck">Galaxy s23 Ultra</h3>
+            <p class="samsung-bottom-card-tex">From $229.99</p>
+            <button class="samsung-bottom-card-btn">Buy now</button>
+          </div>
+          
+          <div class="samsung-bottom-card">
+            <img class="samsung-bottom-card-img" src="https://image-us.samsung.com/SamsungUS/home/television-home-theater/tvs/oled-tvs/10242023/QN65S90CAFXZA.jpg?$product-card-small-jpg$" alt="" width="107" height="81">
+            <h3 class="samsung-bottom-card-deck">77" Class s90C OLED 4K Smart TV <br> (2023)</h3>
+            <p class="samsung-bottom-card-tex">From $229.99</p>
+            <button class="samsung-bottom-card-btn">Buy now</button>
+          </div>
+          
+          <div class="samsung-bottom-card">
+            <img class="samsung-bottom-card-img" src="https://image-us.samsung.com/SamsungUS/home/computing/monitors/gaming/06072023/gi/S49CG950SN_002_Front1_Silver_SCOM.jpg?$product-card-small-jpg$" alt="" width="107" height="81">
+            <h3 class="samsung-bottom-card-deck">49" Odyssey OLED G95SC DQHD NEO <br> Quantum Processor PRo</h3>
+            <p class="samsung-bottom-card-tex">From $229.99</p>
+            <button class="samsung-bottom-card-btn">Buy now</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- SAMSUNG-SHOP-END -->
+    
+    
+    <!-- SAMSUNG-MOBILE-PART -->
+    <section class="samsung-mobile-part">
+      <div class="main-container">
+        <div class="samsung-mobile-container">
+          <h2 class="samsung-mobile-heading samsung-shop-top-heading">Mobile & Computing</h2>
+          <!-- SAMSUNG-MOBILE-AUTH-PART -->
+          <div class="samsung-shop-top-auth-wrapper">
+            <div class="samsung-shop-top-auth-wrapper-main"> <a class="samsung-shop-top-auth-btn active-btn" href="">Galaxy Z Fold5</a></div>
+            <div class="samsung-shop-top-auth-wrapper-main"> <a class="samsung-shop-top-auth-btn " href="">Galaxy Z Flip5
+            </a></div>
+            <div class="samsung-shop-top-auth-wrapper-main"> <a class="samsung-shop-top-auth-btn " href="">Galaxy FE Bundle
+            </a></div>
+            <div class="samsung-shop-top-auth-wrapper-main"> <a class="samsung-shop-top-auth-btn " href=""> Galaxy Tab S9 Series
+            </a></div>
+            <div class="samsung-shop-top-auth-wrapper-main"> <a class="samsung-shop-top-auth-btn" href=""> Galaxy s23 Ultra
+            </a></div>
+            <div class="samsung-shop-top-auth-wrapper-main"> <a class="samsung-shop-top-auth-btn" href=""> Galaxy s23 Ultra
+            </a></div>
+          </div>
+          
+          <!-- SAMSUNG-MOBILE-BANNER -->
+          <div class="samsung-mobile-banner samsung-banner-main ">
+            <img class="samsung-mobile-banner-img" src="./img/galaxy-s8-samsung.jpg" alt="" width="">
+          </div>
+          
+          <!-- SAMSUNG-MOBILE-BOTTTOM-DECK -->
+          <div class="samsung-mobile-bottom-deck-wrapper">
+            <h2 class="samsung-mobile-bottom-heading">Ulfold next-level productivity</h2>
+            <p class="samsung-mobile-bottom-text">Get up to $1000 instand trade-in credit toward Galaxy Z Fold5</p>
+            <div class="samsung-mobile-bottom-auth-wrapper">
+              <a href="#" class="samsung-mobile-bottom-auth-shop">Shop more deals</a>
+              <button class="samsung-mobile-button-auth-buy">Buy now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    
+    <!-- SAMSUNG-TV-PART -->
+    <section class="samsung-tv-part">
+      <div class="main-container">
+        <div class="samsung-tv-part-container">
+          <h2 class="samsung-tv-part-heading samsung-shop-top-heading samsung-mobile-heading">TV & Audio</h2>
+          <!-- SAMSUNG-TV-PART -->
+          <div class="samsung-tv-part-auth-wrapper">
+            <div class="samsung-tv-part-auth-wrapper-main"> <a class="samsung-shop-top-auth-btn active-btn" href="">OLED</a></div>
+            <div class="samsung-tv-part-auth-wrapper-main"> <a class="samsung-shop-top-auth-btn active-btn" href="">Samsung Neo TVs</a></div>
+            <div class="samsung-tv-part-auth-wrapper-main"> <a class="samsung-shop-top-auth-btn active-btn" href="">Ultra Slim Soundbar</a></div>
+          </div>
+          
+          <!-- SAMSUNG-TV-PART-BANNER -->
+          <div class="samsung-tv-banner samsung-banner-main">
+            <img class="samsung-tv-banner-img" src="./img/samsung-tv.jpg" alt="">
+          </div>
+          
+          <!-- SAMSUNG-TV-BOTTOM-DECK -->
+          <div class="samsung-mobile-bottom-deck-wrapper">
+            <h2 class="samsung-mobile-bottom-heading">Holidays just got brighter</h2>
+            <p class="samsung-mobile-bottom-text">Get up to $1000 instand trade-in credit toward Galaxy Z Fold5</p>
+            <div class="samsung-mobile-bottom-auth-wrapper">
+              <a href="#" class="samsung-mobile-bottom-auth-shop">Shop more deals</a>
+              <button class="samsung-mobile-button-auth-buy">Buy now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    
+    
+    <!-- SAMSUNG-HOME-PART -->
+    <section class="samsung-home-part">
+      <div class="main-container">
+        <div class="samsung-home-part-container">
+          <h2 class="samsung-tv-part-heading samsung-shop-top-heading samsung-mobile-heading">Home Appliances</h2>
+          
+          <!-- SAMSUNG-HOME-AUTH -->
+          <div class="samsung-tv-part-auth-wrapper">
+            <div class="samsung-tv-part-auth-wrapper-main"> <a class="samsung-shop-top-auth-btn active-btn" href="">OLED</a></div>
+            <div class="samsung-tv-part-auth-wrapper-main"> <a class="samsung-shop-top-auth-btn active-btn" href="">Samsung Neo TVs</a></div>
+            <div class="samsung-tv-part-auth-wrapper-main"> <a class="samsung-shop-top-auth-btn active-btn" href="">Ultra Slim Soundbar</a></div>
+          </div>
+          
+          <!-- SAMSUNG-HOME-BANNER -->
+          <div class="samsung-home-banner samsung-banner-main">
+            <img class="samsung-tv-banner-img samsung-technique-radius-main" src="./img/samsung-hme.jpg" alt="" >
+          </div>
+          
+          <!-- SAMSUNG-HOME-BOTTOM-DECK -->
+          <div class="samsung-mobile-bottom-deck-wrapper">
+            <h2 class="samsung-mobile-bottom-heading">Holidays just got brighter</h2>
+            <p class="samsung-mobile-bottom-text">Get up to $1000 instand trade-in credit toward Galaxy Z Fold5</p>
+            <div class="samsung-mobile-bottom-auth-wrapper">
+              <a href="#" class="samsung-mobile-bottom-auth-shop">Shop more deals</a>
+              <button class="samsung-mobile-button-auth-buy">Buy now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- SAMSUNG-SUSTANAINABILITY-PART -->
+    <section class="samsung-sustainability-part">
+      <div class="main-container">
+        <div class="samsung-tv-part-container">
+          <h2 class="samsung-tv-part-heading samsung-shop-top-heading samsung-mobile-heading">TV & Audio</h2>
+          <!-- SAMSUNG-TV-PART -->
+          <div class="samsung-tv-part-auth-wrapper">
+            <div class="samsung-tv-part-auth-wrapper-main"> <a class="samsung-shop-top-auth-btn active-btn" href="">OLED</a></div>
+            <div class="samsung-tv-part-auth-wrapper-main"> <a class="samsung-shop-top-auth-btn active-btn" href="">Samsung Neo TVs</a></div>
+            <div class="samsung-tv-part-auth-wrapper-main"> <a class="samsung-shop-top-auth-btn active-btn" href="">Ultra Slim Soundbar</a></div>
+          </div>
+          
+          <!-- SAMSUNG-TV-PART-BANNER -->
+          <div class="samsung-mobile-banner samsung-banner-main ">
+            <img class="samsung-mobile-banner-img" src="./img/galaxy-s8-samsung.jpg" alt="" width="">
+          </div>
+          
+          <!-- SAMSUNG-TV-BOTTOM-DECK -->
+          <div class="samsung-mobile-bottom-deck-wrapper">
+            <h2 class="samsung-mobile-bottom-heading">Holidays just got brighter</h2>
+            <p class="samsung-mobile-bottom-text">Get up to $1000 instand trade-in credit toward Galaxy Z Fold5</p>
+            <div class="samsung-mobile-bottom-auth-wrapper">
+              <a href="#" class="samsung-mobile-bottom-auth-shop">Shop more deals</a>
+              <button class="samsung-mobile-button-auth-buy">Buy now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    
+    <!-- SAMSUNG-EXPLORE -->
+    <section class="samsung-explore">
+      <div class="main-container">
+        <h2 class="samsung-explore-heading
+        ">Explore #DoWhatYouCant</h2>
+        <div class="samsung-explore-container">
+          <img class="samsung-explore-img" src="./img/92489180.webp" alt="">
+          <!-- SAMSUNG-EXPLORE-INFO -->
+          <div class="samsung-explore-info">
+            <ul class="samsung-explore-info-list">
+              <li class="samsung-explore-info-item"><span>01</span>3 Creators share their holiday home must haves</li>
+              <li class="samsung-explore-info-item"><span>02</span>Go to tech gifts for every budget</li>
+              <li class="samsung-explore-info-item"><span>03</span>5 ways to make this year’s holiday better than ever</li>
+              <li class="samsung-explore-info-item"><span>04</span>Become the ultimate photographer with Samsung AI</li>
+              <li class="samsung-explore-info-item"><span>05</span>AI puts you in the repair driver seat</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    
+    <!-- SAMSUNG-ARTICLE -->
+    <section class="samsung-article">
+      <div class="main-container">
+        <div class="samsung-article-container">
+           <a class="article-btn">Download now</a>
+        </div>
+      </div>
+    </section>
 
+
+    <!-- SAMSUNG-SEARCH-PART -->
+     <section class="samsung-search">
+      <div class="main-container">
+        <div class="samsung-search-container">
+          <h2 class="samsung-search-heading">Looking for something else?</h2>
+           <div class="samsung-search-input-wrapper">
+              <i class="fa-solid fa-magnifying-glass fa-input"></i>
+              <input class="samsung-search-input" type="text" placeholder="Search Keyword">
+            </div>
+           </div>
+        </div>
+     </section>
+  </main>
   <script src="./js/main.js"></script>
+  
+
 </body>
+
+
+
+
 </html>
