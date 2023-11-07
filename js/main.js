@@ -13,9 +13,11 @@ const rest  = document.querySelector('.modal-btn');
 
 function searchiy(){
     modal.classList.add('modal-show');
+    document.body.style.overflow = 'hidden'
 }
 
 
 function  restiy(){
     modal.classList.remove('modal-show');
+    document.body.style.overflow = ''
 }

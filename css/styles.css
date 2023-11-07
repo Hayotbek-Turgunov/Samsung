@@ -102,7 +102,10 @@ img {
   color: #222;
   font-weight: 600;
   font-size: 14px;
-  
+}
+
+.sitenav-link:hover{
+  color: #22222276;
 }
 .sitenav-list-right {
   display: flex;
@@ -176,6 +179,7 @@ img {
   text-align: center;
   opacity: 0.8;
   padding-top: 70px;
+  overscroll-behavior: initial;
   z-index: 9999;
 }
 
@@ -231,8 +235,10 @@ img {
   z-index: 99;
 }
 
+
 .modal-show{
   display: block;
+  overflow: hidden;
 }
 
 /* HERO */
@@ -539,6 +545,7 @@ img {
   font-size: 14px;
   margin-bottom:10px;
   background-color: inherit;
+  cursor: pointer;
 }
 
 .samsung-search-btn:not(:last-child){
@@ -640,6 +647,11 @@ img {
   color: #000000ce;
   font-size: 13px;
   white-space: nowrap;
+  transition: 0.1s all;
+}
+
+.site-footer-bottom-link:hover{
+  color: #22222279;
 }
 
 .site-footer-bottom-list-small{
@@ -660,8 +672,6 @@ img {
 }
 
 /* SITE-FOOTER-COPYRIGHT */
-
-
 .site-footer-copyright-container {
   display: flex;
   justify-content: space-between;
@@ -710,10 +720,12 @@ img {
 
 .site-footer-social-left-list{
   list-style: none;
-
   display: flex;
   gap: 20px;
 }
+
+
+
 
 /* MEDIA */
 @media only screen and (max-width: 1459px) {
